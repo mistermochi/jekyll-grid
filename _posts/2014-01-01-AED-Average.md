@@ -3,6 +3,7 @@ layout: post
 title: 急症室輪候時間
 desc: 各急症室每天在同一時間的平均等候時間。
 proj-num: 1
+level: 第三級
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
