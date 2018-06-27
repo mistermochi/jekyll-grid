@@ -19,7 +19,8 @@ html {
 
 body {
 	background: $white;
-  font: 16px/23px $helveticaNeue;
+  font: 16px/23px $source;
+  line-height: 1.5;
   color: $gray;
   -webkit-font-smoothing: antialiased;
 }
@@ -34,13 +35,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkGray;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.25;
   margin: 0;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.5;
   }
 }
   
