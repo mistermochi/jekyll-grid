@@ -2,6 +2,7 @@
 layout: post
 title: 本地流感流行情況
 desc: 衛生署每週更新的流感監測數據，定點監測、實驗室監測、流感樣疾病爆發監測、醫院監測，以及流感季節期間的嚴重流感個案監測。
+level: 第一級
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
