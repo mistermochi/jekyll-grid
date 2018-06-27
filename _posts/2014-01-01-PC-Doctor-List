@@ -2,7 +2,7 @@
 layout: post
 title: 基層醫療診所地圖
 desc: 衛生署提供的基層醫療診所資料，包括地址、電話、駐診醫生等。
-level: 第一級
+level: 第二級
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
