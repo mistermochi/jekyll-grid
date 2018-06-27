@@ -5,7 +5,7 @@ layout: home
 <div class="posts clearfix">
   {% for post in site.posts %}
     <article class="post">    
-      <! -- div class="eyebrow"{{ post.date | date: "%d %b %Y" }} div  -->
+      <div class="eyebrow">{{ post.level }} </div>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
@@ -13,8 +13,7 @@ layout: home
 <!--         {{ post.content | truncatewords:40}}
  -->  </div>
       
-      <a href="{{ post.proj-url }}" class="small-link primary-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read details</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link primary-link" target="_blank">閱覽資料 <i class="fa fa-external-link"></i></a>
     </article>
   {% endfor %}
 </div>
