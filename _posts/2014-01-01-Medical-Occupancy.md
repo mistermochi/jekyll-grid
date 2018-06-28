@@ -14,7 +14,7 @@ level: 第一級
 <script src="https://code.highcharts.com/modules/heatmap.js"></script>
 <script src="https://code.highcharts.com/modules/boost.js"></script>
 
-<div id="container" style="min-height: 1500px; max-height: 3000px; min-width: 440px; max-width: 880px; margin: 0 auto"></div>
+<div id="container" style="min-height: 2500px; max-height: 3000px; min-width: 440px; max-width: 880px; margin: 0 auto"></div>
 
 
 [原始數據](https://docs.google.com/spreadsheets/d/e/2PACX-1vRpbqc-2MwM-s9JtgXKFbfNmNOaTkve2rPmUxZvMoiJdYTJENStLX1W6i47mb-RURj3Or2oXRjPLhgD/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false)
