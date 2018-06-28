@@ -26,6 +26,7 @@ Tag collection
 {% endfor %}
 
 {% for tag in tags %}
+  <h2>{{ tag }}</h2>
   <div class="posts clearfix">  
     {% for post in site.posts %}
       {% if post.tags contains tag %}
