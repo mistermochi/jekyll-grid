@@ -11,7 +11,7 @@ Tag collection
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign rawtags = rawtags | split:'|' %}
 
 {% assign tags = "" %}
 {% for tag in rawtags %}
