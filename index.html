@@ -25,25 +25,21 @@ Tag collection
 	{% endif %}
 {% endfor %}
 
-<div class="posts clearfix">
-  {% for post in site.posts %}
-    <article class="post">    
-      <div class="eyebrow">{{ post.level }} </div>
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-      	<p>{{ post.desc }}</p>
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link primary-link" target="_blank">閱覽資料 <i class="fa fa-external-link"></i></a>
-    </article>
-  {% endfor %}
-</div>
-
-<p>
-  
 {% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+  <div class="posts clearfix">  
+    {% for post in site.posts %}
+      {% if post.tags contains tag %}
+        <article class="post">    
+          <div class="eyebrow">{{ post.level }} </div>
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+          <div class="entry">
+          	<p>{{ post.desc }}</p>
+          </div>
+      
+          <a href="{{ site.baseurl }}{{ post.url }}" class="small-link primary-link" target="_blank">閱覽資料 <i class="fa fa-external-link"></i></a>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
 {% endfor %}
-  
-</p>
