@@ -1,8 +1,9 @@
 ---
 layout: post
-status: "政府更新: <span id=Occupancy item=1></span>"
-description: "於服務高峰期期間，醫管局每日發布的內科住院病床使用率數據。"
 title:  "內科床位佔用率"
+desc: "於服務高峰期期間，醫管局每日發布的內科住院病床使用率數據。"
+tags: [醫療服務實況]
+level: 第一級
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
