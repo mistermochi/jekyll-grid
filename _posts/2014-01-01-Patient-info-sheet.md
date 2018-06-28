@@ -3,6 +3,7 @@ layout: post
 title: 健康資訊搜尋器
 desc: 為你搜尋醫管局、衛生署、各大醫院及醫學院提供的資料。不定時更新。
 level: 第一級
+tags: [健康資訊]
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
