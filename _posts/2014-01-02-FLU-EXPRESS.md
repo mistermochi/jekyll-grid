@@ -4,7 +4,6 @@ title: 本地流感流行情況
 desc: 衛生署每週更新的流感監測數據，用以衡量流感流行程度及對公共醫療系統的影響。
 level: 第一級
 tags: [公共衛生實況]
-proj-num: 2
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
